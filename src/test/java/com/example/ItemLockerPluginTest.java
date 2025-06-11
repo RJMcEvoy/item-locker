@@ -1,13 +1,15 @@
 package com.example;
 
+import com.itemlocker.ItemLockerPlugin;
+
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class ItemLockerPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(ItemLockerPlugin.class);
 		RuneLite.main(args);
 	}
 }
